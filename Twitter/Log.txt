@@ -1,0 +1,890 @@
+[Sat Jan 15 20:33:16 2022][INFO] [Server] Server opened
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][OpenDatabase] Opened ../Database/TwitterDatabase.db database succesfully.
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][InitializeDBStructure] Initialized DB structure
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT FirstFriend,SecondFriend FROM Friends
+[Sat Jan 15 20:33:16 2022][INFO] [Server][SocialGraph][InitializeSocialGraph] Initialized SocialGraph structure
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '9'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '3'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '4'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '5'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '6'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '8'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '10'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '15'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '17'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '18'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '19'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '20'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '21'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '22'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 20:33:16 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 20:33:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111' AND Password='ala'
+[Sat Jan 15 20:33:22 2022][INFO] [Server][User][Login] Alex111 logged in succesfully with password : ala
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate FROM Posts
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '1'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '2'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '3'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '3'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '4'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '4'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Alex312 . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '5'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Alex313312 . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '6'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '6'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Alex313312 . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '8'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '8'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Contul_Mare'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Contul_Mare'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Contul_Mare . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '9'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '9'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Adrian'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Adrian'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Adrian . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '10'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '10'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Alex313312 . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '15'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '15'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '17'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '17'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '18'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '18'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '19'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '19'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Madalina8BD'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Madalina8BD'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Madalina8BD . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '20'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '20'
+[Sat Jan 15 20:33:25 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Alex111 with himself
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '21'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Gigi'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Gigi'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Gigi . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '22'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '22'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Ana . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '24'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Alex111 is friend with Ana . Result : 0
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '25'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Posts][GenerateFeed] Alex111 posts generated
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Sat Jan 15 20:33:25 2022][ERROR] [Server][Posts][CountLikes] Post with ID =  doesn't exist in DB
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 20:33:25 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Sat Jan 15 20:33:25 2022][ERROR] [Server][Posts][CheckLiked] Post with ID =  doesn't exist in DB
+[Sat Jan 15 21:21:01 2022][INFO] [Server] Server opened
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][OpenDatabase] Opened ../Database/TwitterDatabase.db database succesfully.
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][InitializeDBStructure] Initialized DB structure
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT FirstFriend,SecondFriend FROM Friends
+[Sat Jan 15 21:21:01 2022][INFO] [Server][SocialGraph][InitializeSocialGraph] Initialized SocialGraph structure
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '9'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '3'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '4'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '5'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '6'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '8'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '10'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '15'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '17'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '18'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '19'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '20'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '21'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '22'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:21:01 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:22:06 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:22:06 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana' AND Password='123'
+[Sat Jan 15 21:22:06 2022][INFO] [Server][User][Login] Ana logged in succesfully with password : 123
+[Sat Jan 15 21:26:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana' AND Password='123'
+[Sat Jan 15 21:26:41 2022][INFO] [Server][User][Login] Ana logged in succesfully with password : 123
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][Count] Counted succesfully into table Posts. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts WHERE Username = 'Ana'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Posts][GenerateUserPosts] Ana posts generated
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:26:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Sat Jan 15 21:26:43 2022][ERROR] [Server][Posts][CountLikes] Post with ID =  doesn't exist in DB
+[Sat Jan 15 21:26:45 2022][INFO] [Server][Posts][DeleteGenerateUserPosts] Cleared Ana profile queue from Server
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate FROM Posts
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '1'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '2'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '3'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '3'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '4'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '4'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex312 . Result : 1
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '5'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex313312 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '6'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '6'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex313312 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '8'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '8'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Contul_Mare'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Contul_Mare'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Contul_Mare . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '9'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '9'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Adrian'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Adrian'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Adrian . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '10'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '10'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex313312'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex313312 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '15'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '15'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '17'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '17'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '18'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '18'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '19'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '19'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Madalina8BD'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Madalina8BD'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Madalina8BD . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '20'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '20'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '21'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Gigi'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Gigi'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Gigi . Result : 0
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '22'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '22'
+[Sat Jan 15 21:26:46 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Ana with himself
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '24'
+[Sat Jan 15 21:26:46 2022][WARNING] [Server][SocialGraph][CheckFriends] Tried to check Ana with himself
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT PostedDate FROM Comments WHERE ID_Post = '25'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Posts][GenerateFeed] Ana posts generated
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:26:46 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:26:46 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:26:47 2022][INFO] [Server][Posts][DeleteGeneratedFeed] Cleared Ana feed queue from Server
+[Sat Jan 15 21:28:30 2022][INFO] [Server] Server opened
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][OpenDatabase] Opened ../Database/TwitterDatabase.db database succesfully.
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][InitializeDBStructure] Initialized DB structure
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT FirstFriend,SecondFriend FROM Friends
+[Sat Jan 15 21:28:30 2022][INFO] [Server][SocialGraph][InitializeSocialGraph] Initialized SocialGraph structure
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '9'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '3'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '4'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '5'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '6'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '8'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '10'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '15'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '17'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '18'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '19'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '20'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '21'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '22'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:28:30 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server] Server opened
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][OpenDatabase] Opened ../Database/TwitterDatabase.db database succesfully.
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][InitializeDBStructure] Initialized DB structure
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT FirstFriend,SecondFriend FROM Friends
+[Sat Jan 15 21:28:46 2022][INFO] [Server][SocialGraph][InitializeSocialGraph] Initialized SocialGraph structure
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '9'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '3'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '4'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '5'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '6'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '8'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '10'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '15'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '17'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '18'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '19'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '20'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '21'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '22'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:28:46 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Sat Jan 15 21:29:26 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:26 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana' AND Password='123'
+[Sat Jan 15 21:29:26 2022][INFO] [Server][User][Login] Ana logged in succesfully with password : 123
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][Count] Counted succesfully into table Posts. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts WHERE Username = 'Ana'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Posts][GenerateUserPosts] Ana posts generated
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Sat Jan 15 21:29:27 2022][ERROR] [Server][Posts][CountLikes] Post with ID =  doesn't exist in DB
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:27 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Sat Jan 15 21:29:27 2022][ERROR] [Server][Posts][CheckLiked] Post with ID =  doesn't exist in DB
+[Sat Jan 15 21:29:31 2022][INFO] [Server][Database][Count] Counted succesfully into table Comments. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:34 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:34 2022][INFO] [Server][Database][InsertIntoDB] Inserted into table Comments Values : 24 Ana 15-01-2022 m
+[Sat Jan 15 21:29:34 2022][INFO] [Server][Posts][CreatePost] Created comment to post = 24 from User = Ana , and text = m
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Comment FROM Comments WHERE ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Posts][GenerateCommentsFromPost] Post 24 comments generated
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Comments. Conditions : ID_Comment = '19'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post,Username,PostedDate,Text FROM Comments WHERE ID_Comment = '19'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:29:35 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:29:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:47 2022][WARNING] [Server][Posts][GetCommentFromPost] Reached last comment for post 24 when going next. Resetting counter to first
+[Sat Jan 15 21:29:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Comments. Conditions : ID_Comment = '19'
+[Sat Jan 15 21:29:47 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post,Username,PostedDate,Text FROM Comments WHERE ID_Comment = '19'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Comments. Conditions : ID_Comment = '19'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post,Username,PostedDate,Text FROM Comments WHERE ID_Comment = '19'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:29:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:29:48 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:29:56 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '25' AND Username = 'Ana'
+[Sat Jan 15 21:29:56 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 25. Result: 0
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:02 2022][WARNING] [Server][Posts][GetUserPost] Reached last post for Ana when going next. Resetting counter to first
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:02 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:30:02 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:03 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '25' AND Username = 'Ana'
+[Sat Jan 15 21:30:03 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 25. Result: 0
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:05 2022][WARNING] [Server][Posts][GetUserPost] Reached last post for Ana when going next. Resetting counter to first
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:05 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:30:05 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:30:07 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:07 2022][WARNING] [Server][Posts][GetUserPost] Reached last post for Ana when going backwards. Resetting counter to last
+[Sat Jan 15 21:30:07 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:07 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:07 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '25' AND Username = 'Ana'
+[Sat Jan 15 21:30:08 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 25. Result: 0
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:10 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:16 2022][WARNING] [Server][Posts][GetUserPost] Reached last post for Ana when going backwards. Resetting counter to last
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '25'
+[Sat Jan 15 21:30:16 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '25'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:30:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:30:20 2022][INFO] [Server][Posts][DeleteGenerateUserPosts] Cleared Ana profile queue from Server
+[Sat Jan 15 21:30:29 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username FROM Users
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][Count] Counted succesfully into table Posts. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts WHERE Username = 'Alex111'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Posts][GenerateUserPosts] Alex111 posts generated
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:12 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '24'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '24'
+[Sat Jan 15 21:31:12 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '24' AND Username = 'Ana'
+[Sat Jan 15 21:31:12 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 24. Result: 0
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:15 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : INSERT INTO Friends(FirstFriend,SecondFriend) VALUES ('Ana','Alex111')
+[Sat Jan 15 21:31:15 2022][INFO] [Server][SocialGraph][InsertFriends] Inserted into Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '2' AND Username = 'Ana'
+[Sat Jan 15 21:31:17 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 2. Result: 0
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:17 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '1' AND Username = 'Ana'
+[Sat Jan 15 21:31:20 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 1. Result: 0
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:22 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:23 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : DELETE FROM Friends WHERE FirstFriend = 'Ana' AND SecondFriend = 'Alex111'
+[Sat Jan 15 21:31:23 2022][INFO] [Server][SocialGraph][DeleteFriends] Deleted from Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:24 2022][INFO] [Server][Posts][DeleteGenerateUserPosts] Cleared Alex111 profile queue from Server
+[Sat Jan 15 21:31:31 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username FROM Users
+[Sat Jan 15 21:31:34 2022][INFO] [Server][Database][Count] Counted succesfully into table Posts. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts WHERE Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Posts][GenerateUserPosts] Alex111 posts generated
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:35 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '1' AND Username = 'Ana'
+[Sat Jan 15 21:31:35 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 1. Result: 0
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:35 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:37 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : INSERT INTO Friends(FirstFriend,SecondFriend) VALUES ('Ana','Alex111')
+[Sat Jan 15 21:31:37 2022][INFO] [Server][SocialGraph][InsertFriends] Inserted into Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : DELETE FROM Friends WHERE FirstFriend = 'Ana' AND SecondFriend = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][SocialGraph][DeleteFriends] Deleted from Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : INSERT INTO Friends(FirstFriend,SecondFriend) VALUES ('Ana','Alex111')
+[Sat Jan 15 21:31:38 2022][INFO] [Server][SocialGraph][InsertFriends] Inserted into Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:38 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : DELETE FROM Friends WHERE FirstFriend = 'Ana' AND SecondFriend = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][SocialGraph][DeleteFriends] Deleted from Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:39 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : INSERT INTO Friends(FirstFriend,SecondFriend) VALUES ('Ana','Alex111')
+[Sat Jan 15 21:31:39 2022][INFO] [Server][SocialGraph][InsertFriends] Inserted into Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : DELETE FROM Friends WHERE FirstFriend = 'Ana' AND SecondFriend = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][SocialGraph][DeleteFriends] Deleted from Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 0
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:40 2022][INFO] [Server][Database][Execute]Executed query succesfully. Query : INSERT INTO Friends(FirstFriend,SecondFriend) VALUES ('Ana','Alex111')
+[Sat Jan 15 21:31:40 2022][INFO] [Server][SocialGraph][InsertFriends] Inserted into Friends : (Ana),(Alex111)
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '1' AND Username = 'Ana'
+[Sat Jan 15 21:31:41 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 1. Result: 0
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:41 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '1' AND Username = 'Ana'
+[Sat Jan 15 21:31:42 2022][INFO] [Server][Database][InsertIntoDB] Inserted into table LikesDislikes Values : 1 Ana
+[Sat Jan 15 21:31:42 2022][ERROR] [Server][Posts][ChangeLike] User Ana likes post with ID = 1
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Retweet FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '2'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:43 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:47 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:47 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '1'
+[Sat Jan 15 21:31:47 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '1'
+[Sat Jan 15 21:31:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Sat Jan 15 21:31:48 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Alex111'
+[Sat Jan 15 21:31:48 2022][INFO] [Server][SocialGraph][CheckFriends] Chcked if User: Ana is friend with Alex111 . Result : 1
+[Sat Jan 15 21:31:49 2022][INFO] [Server][Posts][DeleteGenerateUserPosts] Cleared Alex111 profile queue from Server
+[Mon Jan 17 22:20:12 2022][INFO] [Server] Server opened
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][OpenDatabase] Opened ../Database/TwitterDatabase.db database succesfully.
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][InitializeDBStructure] Initialized DB structure
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT FirstFriend,SecondFriend FROM Friends
+[Mon Jan 17 22:20:12 2022][INFO] [Server][SocialGraph][InitializeSocialGraph] Initialized SocialGraph structure
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT ID_Post FROM Posts
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '9'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '1'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '2'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '3'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '4'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '5'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '6'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '8'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '10'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '15'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '17'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '18'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '19'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '20'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '21'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '22'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '24'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '25'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '26'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '27'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '28'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Text FROM Posts WHERE ID_Post = '29'
+[Mon Jan 17 22:20:12 2022][INFO] [Server][Posts][AddToInvertedIndex] Added Posts into InvertedIndex
+[Mon Jan 17 22:21:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Mon Jan 17 22:21:08 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana' AND Password='123'
+[Mon Jan 17 22:21:08 2022][INFO] [Server][User][Login] Ana logged in succesfully with password : 123
+[Mon Jan 17 22:21:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Mon Jan 17 22:21:15 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '5'
+[Mon Jan 17 22:21:15 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Mon Jan 17 22:21:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Mon Jan 17 22:21:15 2022][ERROR] [Server][Posts][CountLikes] Post with ID =  doesn't exist in DB
+[Mon Jan 17 22:21:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Mon Jan 17 22:21:15 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = ''
+[Mon Jan 17 22:21:15 2022][ERROR] [Server][Posts][CheckLiked] Post with ID =  doesn't exist in DB
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '21'
+[Mon Jan 17 22:21:17 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '21' AND Username = 'Ana'
+[Mon Jan 17 22:21:17 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 21. Result: 1
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '5'
+[Mon Jan 17 22:21:19 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Username,Likes,PostedDate,Text FROM Posts WHERE ID_Post = '5'
+[Mon Jan 17 22:21:19 2022][ERROR] [Server][Database][GetTemplate] No value matches the query.
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Mon Jan 17 22:21:19 2022][INFO] [Server][Database][GetTemplate] Selected succesfully. Query: SELECT Likes FROM Posts WHERE ID_Post = '5'
+[Mon Jan 17 22:21:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Users. Conditions : Username = 'Ana'
+[Mon Jan 17 22:21:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table Posts. Conditions : ID_Post = '5'
+[Mon Jan 17 22:21:20 2022][INFO] [Server][Database][CheckExists] Checked existence into table LikesDislikes. Conditions : ID_Post = '5' AND Username = 'Ana'
+[Mon Jan 17 22:21:20 2022][ERROR] [Server][Posts][CheckLiked] Checked if Ana likes post with ID = 5. Result: 0
+[Mon Jan 17 22:21:21 2022][WARNING] [Server][Posts][DeleteGeneratedFeed] Ana has no feed queue activated on Server
